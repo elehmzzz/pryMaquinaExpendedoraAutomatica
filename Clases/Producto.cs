@@ -42,6 +42,9 @@ namespace pryMaquinaExpendedora.Clases
                 return $"Compra realizada con exito \n Cobro total: $ {cobroTotal}"; 
             }
         }
+        public string mostrarProducto() {
+            return $"Producto: {nombreProducto} Precio: $ {costo} Existencia: {existencia}";
+        }
 
     }
 }

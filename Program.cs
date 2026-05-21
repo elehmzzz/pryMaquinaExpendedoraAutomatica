@@ -16,10 +16,10 @@ namespace pryMaquinaExpendedora
             do
             {
                 Console.WriteLine("------------ Catalogo de productos ------------");
-                Console.WriteLine($"1. {sabritasAdobadas._nombreProducto} precio: {sabritasAdobadas._costo} existencia: {sabritasAdobadas._existencia}");
-                Console.WriteLine($"2. {galletasChokis._nombreProducto} precio: {galletasChokis._costo} existencia: {galletasChokis._existencia}");
-                Console.WriteLine($"3. {galletasArcoiris._nombreProducto} precio: {galletasArcoiris._costo} existencia: {galletasArcoiris._existencia}");
-                Console.WriteLine($"4. {sabritasOrigial._nombreProducto} precio: {sabritasOrigial._costo} existencia: {sabritasOrigial._existencia}");
+                Console.WriteLine($"1. {sabritasAdobadas.mostrarProducto()}");
+                Console.WriteLine($"2. {galletasChokis.mostrarProducto()}");
+                Console.WriteLine($"3. {galletasArcoiris.mostrarProducto()}");
+                Console.WriteLine($"4. {sabritasOrigial.mostrarProducto()}");
 
 
                 Console.Write("\nSelecciona el producto (1-4):");
